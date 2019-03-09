@@ -1,0 +1,103 @@
+Tipos Primitivos : 
+} Integer - Números inteiros ( de infinito negativo até infinito)
+} Float - Números Reais 
+} String - para conjunto de caracteres 
+} Boolean - armazena True ou False
+
+Tipos Compostos
+}List - para agrupar um conjunto de elementos
+    teste = 2
+    teste2 = 4
+    teste3 = 5
+    lista = [teste, teste2, teste3]
+    print(lista)
+
+}Tuple - semelhante ao tipo list, porém, imutável
+    t1 = 10
+    t2 = 20
+    t3 = 30
+    t4 = 40
+    t = (t1, t2, t3, t4)
+    print(t)
+
+}Dic - para agrupar elementos que serão recuperados por uma chave
+    >>> x = {1:"aaa", 2:"bbb", 3:"ccc"}
+    >>> len(x)
+    3
+    x = { 1:"aaa", 2:"bbb", 3:"ccc" }
+    del(x[1])
+    print(x)
+    {1:"aaa", 3:"ccc"}
+
+}Set - Essa coleção tem como caracteristica ser desordenada e ter os elementos únicos, ou seja, -
+ - não existe repetição de elementos nesse tipo de collection.
+    >>> conjunto2 = set([4,4,7,7,8,9])
+    >>> conjunto2
+    set([8, 9, 4, 7])
+
+https://onlinegdb.com/ByLwruePV - convertendo tipos
+
+Categoria Seleção - 
+    https://onlinegdb.com/ByL1mKgwV
+
+Categoria Iteração - Para percorrer listas por exemplo 
+    >>> # Measure some strings:
+... words = ['cat', 'window', 'defenestrate']
+>>> for w in words:
+...     print(w, len(w))
+...
+cat 3
+window 6
+defenestrate 12
+
+While - 
+    i = 1
+    while i < 6:
+    print(i)
+    i += 1
+
+Do While - 
+    int i = 1;
+
+    do{ 
+    printf("%d\n", i);
+    i = i + 1;
+    } while(i <= 3);
+
+Prática Input - Output
+    A sintaxe do método input () é:
+
+entrada ([prompt])
+input () Parâmetros
+O método input () usa um único argumento opcional:
+
+prompt (Opcional)  - uma string que é gravada na saída padrão (geralmente tela) sem rastrear nova linha
+Valor de retorno da entrada ()
+O método input () lê uma linha da entrada (geralmente usuário), converte a linha em uma string removendo a nova linha à direita e a retorna.
+Exemplo 1: Como input () funciona em Python?
+# get input from user
+
+inputString = input()
+
+print('The inputted string is:', inputString)
+Quando você executa o programa, a saída será:
+
+Python é interessante.
+A string inserida é: Python é interessante
+
+Output - 
+    Output python usando a função print ()
+    Usamos a print()função para output data para o dispositivo de saída padrão (tela).
+    Também podemos  output data para um arquivo , mas isso será discutido posteriormente. Um exemplo de uso é dado abaixo.
+     print('This sentence is output to the screen')
+# Output: This sentence is output to the screen
+    a = 5
+    print('The value of a is', a)
+# Output: The value of a is 5
+
+
+Ex - Temperatura 
+    https://onlinegdb.com/H1QlvteD4
+
+Ex - Salário 
+    https://onlinegdb.com/Sy2AntxvE
