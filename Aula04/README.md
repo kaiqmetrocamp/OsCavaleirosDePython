@@ -267,7 +267,7 @@ Uma sugestão é deixar essa lista à mão. Se o interpretador reclamar de um no
 
 Programadores geralmente escolhem nomes que façam sentido para os humanos que irão ler o programa — esses nomes ajudam o programador a documentar, ou se lembrar, qual é o papel de cada variável.
 
-
+Teste seu entendimento
 
 
 

@@ -332,5 +332,3 @@ try:
     nome = raw_input(‘Digite seu nome: ‘)
 except NameError:
     nome = input(‘Digite seu nome: ‘)
-
-
